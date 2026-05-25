@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts — DM Serif Display (felix-style Didone) + Inter (body).
+   TODO (perf pass): migrate to next/font/google for preload + self-host. */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+html {
+  background: #FAFAF7;
+  color: #111418;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, .display {
+  font-family: "DM Serif Display", "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background: #D67AB1;
+  color: white;
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 77, 92, 0.15);
+}
+
+/* Marquee — continuous horizontal scroll (used in Trusted By) */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-md font-semibold text-base transition-all duration-fast ease-brand whitespace-nowrap;
+  }
+  .btn-primary {
+    @apply bg-pink text-white hover:bg-pink-600;
+  }
+  .btn-secondary {
+    @apply bg-teal text-cream hover:bg-teal-600;
+  }
+  .btn-ghost {
+    @apply bg-transparent text-teal border-2 border-teal hover:bg-teal hover:text-cream;
+  }
+  .btn-ghost-cream {
+    @apply bg-transparent text-cream border-2 border-cream/50 hover:bg-cream hover:text-teal;
+  }
+
+  .card {
+    @apply bg-cream rounded-lg p-6 transition-all duration-normal ease-brand;
+  }
+  .card:hover {
+    @apply -translate-y-1 shadow-card-hover;
+  }
+
+  .eyebrow {
+    @apply text-eyebrow uppercase text-teal;
+  }
+}

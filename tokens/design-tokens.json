@@ -1,0 +1,57 @@
+{
+  "$schema": "https://design-tokens.org/schema",
+  "brand": "Iago Creative Space",
+  "version": "1.0.0",
+  "color": {
+    "primary": {
+      "teal": { "value": "#0E4D5C", "type": "color", "description": "Primary brand color — headlines, nav, footer, primary buttons" },
+      "pink": { "value": "#D67AB1", "type": "color", "description": "Accent — CTAs, hover, highlights. Keep coverage <= 5%" },
+      "cream": { "value": "#F4ECDD", "type": "color", "description": "Soft neutral — section backgrounds, cards" }
+    },
+    "neutral": {
+      "background": { "value": "#FAFAF7", "type": "color" },
+      "ink": { "value": "#111418", "type": "color" },
+      "muted": { "value": "#6B6B6B", "type": "color" },
+      "border": { "value": "#E5E1D8", "type": "color" }
+    },
+    "functional": {
+      "success": { "value": "#2E7D5B", "type": "color" },
+      "warning": { "value": "#D89B3C", "type": "color" },
+      "error":   { "value": "#C5453A", "type": "color" }
+    }
+  },
+  "font": {
+    "family": {
+      "display": { "value": "'Clash Display', 'Recoleta', Georgia, serif" },
+      "body":    { "value": "'Inter', system-ui, -apple-system, sans-serif" },
+      "mono":    { "value": "'JetBrains Mono', ui-monospace, monospace" }
+    },
+    "size": {
+      "display-xl": { "value": "6rem",   "mobile": "3.5rem" },
+      "display-lg": { "value": "4.5rem", "mobile": "2.5rem" },
+      "display-md": { "value": "3rem",   "mobile": "2rem" },
+      "heading-lg": { "value": "2rem",   "mobile": "1.5rem" },
+      "heading-md": { "value": "1.5rem", "mobile": "1.25rem" },
+      "body-lg":    { "value": "1.25rem","mobile": "1.125rem" },
+      "body":       { "value": "1rem" },
+      "body-sm":    { "value": "0.875rem" },
+      "eyebrow":    { "value": "0.75rem" }
+    }
+  },
+  "radius": {
+    "sm":   { "value": "8px"  },
+    "md":   { "value": "12px" },
+    "lg":   { "value": "16px" },
+    "xl":   { "value": "24px" },
+    "full": { "value": "9999px" }
+  },
+  "shadow": {
+    "card-hover": { "value": "0 12px 32px rgba(14, 77, 92, 0.08)" },
+    "focus-ring": { "value": "0 0 0 3px rgba(14, 77, 92, 0.15)" }
+  },
+  "motion": {
+    "ease":        { "value": "cubic-bezier(0.22, 1, 0.36, 1)" },
+    "duration-fast":   { "value": "200ms" },
+    "duration-normal": { "value": "400ms" }
+  }
+}
