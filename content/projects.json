@@ -1,5 +1,5 @@
 {
-  "$comment": "Iago portfolio — featured projects manifest. Source: Google Drive 'porto video' folder + YouTube unlisted uploads. Last updated 2026-05-25.",
+  "$comment": "Iago portfolio — featured projects manifest. Source: Google Drive 'porto video' folder + YouTube unlisted uploads. Last updated 2026-05-26.",
   "projects": [
     {
       "id": "aadk",
@@ -46,45 +46,45 @@
       "order": 2
     },
     {
-      "id": "ms-glow-for-men",
-      "client": "MS GLOW FOR MEN",
-      "title": "Iklan MS GLOW FOR MEN — Versi Rafi Ahmad",
-      "format": "TVC",
+      "id": "wsu-launchpad",
+      "client": "WSU Launchpad",
+      "title": "WSU Launchpad Event",
+      "format": "Event Film",
       "year": 2025,
-      "duration": "1:23",
-      "description": "A 60-second TVC bringing Rafi Ahmad in as the face of MS GLOW's new men's line.",
+      "duration": "3:17",
+      "description": "Campus opening film — capturing the beginning of a new chapter for incoming students.",
       "source": {
-        "driveFileId": "1qHuW-mKQxYKEh6cSnA0VkdAJkWa2qp2f",
-        "driveUrl": "https://drive.google.com/file/d/1qHuW-mKQxYKEh6cSnA0VkdAJkWa2qp2f/view",
-        "fileSize": "9 MB"
+        "driveFileId": "",
+        "driveUrl": "",
+        "fileSize": ""
       },
       "hosted": {
-        "youtubeId": "6kSZQq_FKPc",
-        "youtubeUrl": "https://youtu.be/6kSZQq_FKPc",
+        "youtubeId": "1gPODffP1OA",
+        "youtubeUrl": "https://youtu.be/1gPODffP1OA",
         "isShort": false,
-        "poster": "https://img.youtube.com/vi/6kSZQq_FKPc/maxresdefault.jpg"
+        "poster": "https://img.youtube.com/vi/1gPODffP1OA/maxresdefault.jpg"
       },
       "featured": true,
       "order": 3
     },
     {
-      "id": "petra-edventure",
-      "client": "PETRA",
-      "title": "Petra Edventure 2025",
-      "format": "Documentation",
+      "id": "rio-satrio-menjadi-lagu",
+      "client": "Rio Satrio",
+      "title": "Rio Satrio — Menjadi Lagu",
+      "format": "Music Video",
       "year": 2025,
-      "duration": "1:16",
-      "description": "75 years full of memories and happiness.",
+      "duration": "3:38",
+      "description": "Official music video for Rio Satrio's \"Menjadi Lagu\" — translating the song's intimate emotion into cinematic frames.",
       "source": {
-        "driveFileId": "171wjinw1DMFtkuKpzZ7vp35NUxntvJ8W",
-        "driveUrl": "https://drive.google.com/file/d/171wjinw1DMFtkuKpzZ7vp35NUxntvJ8W/view",
-        "fileSize": "22 MB"
+        "driveFileId": "",
+        "driveUrl": "",
+        "fileSize": ""
       },
       "hosted": {
-        "youtubeId": "dp3yE-nJg-c",
-        "youtubeUrl": "https://youtu.be/dp3yE-nJg-c",
+        "youtubeId": "EgRXPtiUYtY",
+        "youtubeUrl": "https://youtu.be/EgRXPtiUYtY",
         "isShort": false,
-        "poster": "https://img.youtube.com/vi/dp3yE-nJg-c/maxresdefault.jpg"
+        "poster": "https://img.youtube.com/vi/EgRXPtiUYtY/maxresdefault.jpg"
       },
       "featured": true,
       "order": 4

@@ -46,6 +46,28 @@ export function TrustedBy() {
           ))}
         </div>
       </div>
+
+      {/* Production partner */}
+      <motion.div
+        initial={{ opacity: 0, y: 8 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.1 }}
+        className="relative z-10 mt-12 md:mt-16 flex flex-col items-center gap-3 px-6 text-center"
+      >
+        <p className="text-eyebrow uppercase text-cream/50 tracking-[0.2em]">
+          In partnership with
+        </p>
+        <a
+          href="https://www.ifeyfilms.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-display text-cream/80 hover:text-pink transition-colors duration-fast tracking-wide uppercase"
+          style={{ fontSize: "clamp(1.25rem, 2vw, 1.75rem)" }}
+        >
+          Ifey Films 
+        </a>
+      </motion.div>
     </section>
   );
 }

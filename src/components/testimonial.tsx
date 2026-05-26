@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 
-// MS GLOW FOR MEN — provides the moody video bg behind the quote.
-const TESTIMONIAL_YOUTUBE_ID = "6kSZQq_FKPc";
+// PSB Academy event film — provides the video bg behind the quote.
+const TESTIMONIAL_YOUTUBE_ID = "rB5azC5_TRs";
 
 export function Testimonial() {
   const embedUrl =
@@ -18,7 +18,7 @@ export function Testimonial() {
       <div className="absolute inset-0 pointer-events-none">
         <iframe
           src={embedUrl}
-          title="MS GLOW FOR MEN background reel"
+          title="PSB Academy background reel"
           allow="autoplay; encrypted-media; picture-in-picture"
           loading="lazy"
           className="absolute top-1/2 left-1/2 w-[177.78vh] h-[56.25vw] min-w-full min-h-full -translate-x-1/2 -translate-y-1/2 border-0"
@@ -46,19 +46,19 @@ export function Testimonial() {
             style={{ fontSize: "clamp(1.75rem, 4.5vw, 4rem)" }}
           >
             <span className="text-pink">"</span>
-            Iago turned a product launch into a story our customers actually
-            shared. The campaign hit 4.2× ROAS in week one.
+            Iago bring a fresh idea that we never experience before, the result
+            are beyond our expectation, can't wait for the next project XOXO
             <span className="text-pink">"</span>
           </blockquote>
 
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-full bg-cream/15 flex items-center justify-center">
-              <span className="font-display text-cream text-heading-md">M</span>
+              <span className="font-display text-cream text-heading-md">W</span>
             </div>
             <div>
-              <p className="text-cream font-semibold text-body">Marketing Lead</p>
+              <p className="text-cream font-semibold text-body">Wen Fei — Marketing Lead</p>
               <p className="text-cream/60 text-body-sm uppercase tracking-wider">
-                MS GLOW FOR MEN
+                PSB Academy
               </p>
             </div>
           </div>
